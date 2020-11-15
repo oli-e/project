@@ -20,3 +20,5 @@ class Zespolone{
         return (c);
     }
 }
+
+// Onehka Yopka <3
