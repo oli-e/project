@@ -1,5 +1,6 @@
 package olena.chorna;
 
+//zmiana1
 public final class App {
     public static void main(String[] args){
         Zespolone a = new Zespolone(1,0);
