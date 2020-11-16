@@ -6,6 +6,7 @@ public final class App {
         Zespolone b = new Zespolone(0,1);
         Zespolone c = a.dodaj(b);
         System.out.println("re: " + c.re + ", im: " + c.im);
+        System.out.println("ooooo");
     }
 }
 
