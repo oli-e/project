@@ -12,6 +12,8 @@
             return 0;
         }
 
+TO DO LIST: 
+
 
        1. Zarządzanie listą produktów z poziomu serwisu
        2. Ekspozycja listy produktów via HTTP endpoint
