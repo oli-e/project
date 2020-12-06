@@ -1,7 +1,7 @@
-> ### Projekt na pracownie programowania V 
+> ### Projekt na Pracownie Programowania V 
 
 # Sprzedaż voucherów :ticket:
-#### Wdrozona aplikacja, pozwalająca zarezerwować, opłacić towar lub usługę oraz dostarczyć zamówienie drogą elektroniczną
+#### Wdrożona aplikacja, pozwalająca zarezerwować, opłacić towar lub usługę oraz dostarczyć zamówienie drogą elektroniczną.
 
 
 - [ ] Wstępny zestaw voucherów jest zdefiniowany w systemie
@@ -26,4 +26,4 @@
 - [ ] Klienci przed zatwierdzeniem zamówienia muszą zobaczyć aktualny kosztorys wraz z przyznanymi rabatami
 - [ ] Kosztorys moze zawierać rabaty procentowe oraz kwotowe
 - [ ] Jeżeli klient zatwierdza zamówienie wówczas system aktualizuje stany magazynowe nie pozwalajac na dalszą sprzedaz produktu jezeli nie ma go juz na stanie
-- [ ] w przypadku braku produktu, mógłby zaproponować zamiennik ?! **(zastanowimy się XD)**
+- [ ] W przypadku braku produktu, mógłby zaproponować zamiennik ?! **(zastanowimy się XD)**
