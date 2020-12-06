@@ -1,0 +1,22 @@
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+	    @Override
+        public int addProduct(Product product) {
+            return 0;
+        }
+
+
+       1. Zarządzanie listą produktów z poziomu serwisu
+       2. Ekspozycja listy produktów via HTTP endpoint
+       3. Testy funkcjonalne i jednostkowe
+       4. Automatyzacja budowania projektu z wykorzystanie narzędzia CI (github actions, gitlab ci lub inne)
+
+       Olena: 1,2
+       Daniel: 3,4
