@@ -1,7 +1,7 @@
 ### Projekt na pracownie programowania V 
 
-#### Wdrozona aplikacja, pozwalająca zarezerwować, opłacić towar lub usługę oraz dostarczyć zamówienie drogą elektroniczną
 # Sprzedaż voucherów
+#### Wdrozona aplikacja, pozwalająca zarezerwować, opłacić towar lub usługę oraz dostarczyć zamówienie drogą elektroniczną
 
 
 - [ ] Wstępny zestaw voucherów jest zdefiniowany w systemie
