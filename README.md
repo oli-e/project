@@ -1,6 +1,6 @@
 > ### Projekt na pracownie programowania V 
 
-# Sprzedaż voucherów
+# Sprzedaż voucherów :ticket:
 #### Wdrozona aplikacja, pozwalająca zarezerwować, opłacić towar lub usługę oraz dostarczyć zamówienie drogą elektroniczną
 
 
