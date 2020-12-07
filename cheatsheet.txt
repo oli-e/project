@@ -21,4 +21,4 @@ TO DO LIST:
        4. Automatyzacja budowania projektu z wykorzystanie narzędzia CI (github actions, gitlab ci lub inne)
 
        Olena: 1,2
-       Daniel: 3,4
+       Daniel: 3,4 //konieczny refactoring pakietów
