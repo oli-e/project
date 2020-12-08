@@ -3,6 +3,7 @@ package voucher.app.productcatalog.dao;
 import org.springframework.stereotype.Repository;
 import voucher.app.productcatalog.model.Product;
 
+import javax.swing.text.html.Option;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -33,11 +34,25 @@ public class ProductDataService implements ProductDao {
 
     @Override
     public int deleteProductById(UUID productId) {
-        return 0;
+        Optional<Product> uselessProduct = selectProductById(productId);
+        if (uselessProduct.isEmpty()){
+            return 0;
+        }
+        DB.remove(uselessProduct.get());
+        return 1;
     }
 
     @Override
     public int updateProductById(UUID productId, Product product) {
-        return 0;
+        return selectProductById(productId)
+                .map(product1 -> {
+                int indexOfProductToDelete = DB.indexOf(product1);
+                if (indexOfProductToDelete >= 0 ){
+                    DB.set(indexOfProductToDelete, new Product(productId, product.getName(), product.getImage(), product.getPrice()));
+                    return 1;
+                }
+                return 0;
+            })
+            .orElse(0);
     }
 }

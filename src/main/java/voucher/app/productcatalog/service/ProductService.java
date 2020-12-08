@@ -31,4 +31,10 @@ public class ProductService {
     public Optional<Product> getProductById(UUID productId){
         return productDao.selectProductById(productId);
     }
+    public int deleteProduct(UUID productId){
+        return productDao.deleteProductById(productId);
+    }
+    public int updatePerson(UUID productId, Product product){
+        return productDao.updateProductById(productId, product);
+    }
 }

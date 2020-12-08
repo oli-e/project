@@ -20,8 +20,8 @@ public class Product {
         this.productImage = productImage;
         this.productPrice = productPrice;
     }
-    public String getId() {
-        return productId.toString();
+    public UUID getId() {
+        return productId;
     }
     public String getName() {
         return productName;

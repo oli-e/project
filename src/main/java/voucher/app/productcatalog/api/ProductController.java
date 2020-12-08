@@ -33,4 +33,14 @@ public class ProductController {
     public Product getProductById(@PathVariable("productId") UUID productId){
         return productService.getProductById(productId).orElse(null);
     }
+
+    @DeleteMapping(path ="{productId}")
+    public void deleteProductById(@PathVariable("productId") UUID productId){
+        productService.deleteProduct(productId);
+    }
+
+    @PutMapping(path ="{productId}")
+    public void updateProduct(@PathVariable("productId") UUID productId, @RequestBody Product product){
+        productService.updatePerson(productId, product);
+    }
 }
