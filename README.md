@@ -12,7 +12,7 @@
 ### **Milestone1**
 
 - [x] Zarządzanie listą produktów z poziomu serwisu
-- [ ] Ekspozycja listy produktów via HTTP endpoint
+- [x] Ekspozycja listy produktów via HTTP endpoint
 - [ ] Testy funkcjonalne i jednostkowe
 - [ ] Automatyzacja budowania projektu z wykorzystanie narzędzia CI (github actions, gitlab ci lub inne)
 
