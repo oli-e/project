@@ -5,7 +5,7 @@
 
 
 - [ ] Wstępny zestaw voucherów jest zdefiniowany w systemie
-- [x] W przyszłości katalog pozwala dodawać oraz modyfikować istniejące produkty
+- [x] Katalog pozwala dodawać oraz modyfikować istniejące produkty
 - [x] Katalog zawiera informacje tj. Tytuł, opisu, zdjecie oraz cenę
 - [ ] Produkty mogą być oznaczone jako dostępne do sprzedazy bądź wycofane
 
