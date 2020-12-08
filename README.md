@@ -4,7 +4,7 @@
 #### Wdrożona aplikacja, pozwalająca zarezerwować, opłacić towar lub usługę oraz dostarczyć zamówienie drogą elektroniczną.
 
 
-- [ ] Wstępny zestaw voucherów jest zdefiniowany w systemie :left_right_arrow: JSON
+- [ ] Wstępny zestaw voucherów jest zdefiniowany w systemie :arrow_right: **JSON**
 - [x] Katalog pozwala dodawać oraz modyfikować istniejące produkty
 - [x] Katalog zawiera informacje tj. Tytuł, opisu, zdjecie oraz cenę
 - [ ] Produkty mogą być oznaczone jako dostępne do sprzedazy bądź wycofane
