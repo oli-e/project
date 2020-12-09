@@ -1,6 +1,7 @@
 package voucher.app.productcatalog.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.NonNull;
 import org.springframework.web.bind.annotation.*;
 import voucher.app.productcatalog.model.Product;
 import voucher.app.productcatalog.service.ProductService;
@@ -8,7 +9,7 @@ import voucher.app.productcatalog.service.ProductService;
 import java.util.List;
 import java.util.UUID;
 
-@RequestMapping("api/product")
+@RequestMapping("api/products")
 @RestController
 public class ProductController {
 
@@ -40,7 +41,7 @@ public class ProductController {
     }
 
     @PutMapping(path ="{productId}")
-    public void updateProduct(@PathVariable("productId") UUID productId, @RequestBody Product product){
+    public void updateProduct(@PathVariable("productId") UUID productId, @NonNull @RequestBody Product product){
         productService.updatePerson(productId, product);
     }
 }
