@@ -8,7 +8,8 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "200 means that everything's okay";
+        return "Tu powstanie piękna apka";
     }
+
 
 }
