@@ -6,6 +6,7 @@
 3. `git fetch [origin]*`   = analog F5 w przeglądarce/ reload
 4. `git pull [origin]*`    = pull new changes
 5. `git push [origin]*`    = push your changes to github
+---> *olej okienko z logowaniem, logujesz się w terminalu*
 
 []*-optional
 
